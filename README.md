@@ -1,20 +1,38 @@
-<<<<<<< HEAD
-# hello_world
+# Sribuu Smart
 
-A new Flutter project.
+Sribuu Smart adalah aplikasi pencatatan keuangan sederhana yang dibuat menggunakan Flutter.  
+Aplikasi ini membantu pengguna mencatat pemasukan, pengeluaran, serta mengelola keuangan harian secara mudah dan praktis.
 
-## Getting Started
+Project ini dibuat untuk memenuhi tugas mata kuliah **Rekayasa Perangkat Lunak**  
+yang diampu oleh **Dila Nurlaila, M.Kom** di Program Studi Sistem Informasi.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## ✨ Fitur Utama
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Pencatatan Pemasukan**  
+  Pengguna dapat menambahkan data pemasukan dengan kategori, jumlah, dan tanggal.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
-# Sribuu-Smart
->>>>>>> 95f2c28df6d61930f8a74c72b9f238dc53c0ce5c
+- **Pencatatan Pengeluaran**  
+  Pengguna dapat mencatat pengeluaran harian agar lebih mudah memantau arus keuangan.
+
+- **pages**  
+  Home : Menampilkan total pemasukan, pengeluaran, dan saldo akhir.
+  Grafik : Menampilkan grafik keuangan.
+  Tips keuangan : Berisi cara mengelola uang dengan benar.
+  Goal : Berisi tentang target yang ingin dicapai user.
+  laporan keuangan : Berisi data pencatatan bulanan.
+  leaderboard : Halaman yang menampilkan user mana yang paling banyak menabung.
+  
+
+- **Login Google (Firebase Authentication)**  
+  Pengguna dapat masuk menggunakan akun Google untuk pengalaman yang lebih baik.
+
+- **Penyimpanan Lokal (SharedPreferences / Firebase)**  
+  Data keuangan disimpan secara lokal dan dapat disinkronkan jika fitur online digunakan.
+
+- **UI Sederhana dan Mudah Dipahami**  
+  Desain ringan dan memudahkan pengguna dalam navigasi aplikasi.
+
+---
+
